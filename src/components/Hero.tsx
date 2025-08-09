@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
-import heroImage from "../../public/heroimage.png";
+import heroImage from "../../src/assets/heroimage.png";
 import { motion } from "framer-motion";
 
 
