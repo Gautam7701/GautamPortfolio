@@ -145,7 +145,7 @@ const Hero = () => {
               href={s.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-md transition transform hover:-translate-y-2 hover:shadow-[0_0_15px_#00d4ff] hover:text-white"
+              className="p-3 rounded-full bg-white/5 border border-black text-white backdrop-blur-md transition transform hover:-translate-y-2 hover:shadow-[0_0_15px_#00d4ff] hover:text-white"
             >
               {s.icon}
             </a>

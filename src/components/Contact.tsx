@@ -155,7 +155,9 @@ const Contact = () => {
             <Button
               type="submit"
               size="lg"
-              className="px-50 py-4 text-lg rounded-lg bg-[#2563eb]/20 border border-[#2563eb] text-[#00d4ff] font-semibold hover:bg-[#2563eb] hover:text-white hover:shadow-[0_0_25px_#2563eb] transition-all"
+              className="px-6 py-3 text-base
+    sm:px-8 sm:py-4 sm:text-lg
+    md:px-12 md:text-xl rounded-lg bg-[#2563eb]/20 border border-[#2563eb] text-[#00d4ff] font-semibold hover:bg-[#2563eb] hover:text-white hover:shadow-[0_0_25px_#2563eb] transition-all"
             >
               Send Message
             </Button>
