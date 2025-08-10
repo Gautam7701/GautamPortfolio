@@ -162,7 +162,7 @@ const Hero = () => {
               .getElementById("about")
               ?.scrollIntoView({ behavior: "smooth" })
           }
-          className="bottom-6 left-1/2 -translate-x-1/2 p-2 rounded-full bg-white/5 border border-white/10 hover:bg-white/15 backdrop-blur-md transition animate-[float_2s_ease-in-out_infinite] z-50 hover:shadow-[0_0_15px_#00d4ff]"
+          className="bottom-6 left-1/2 -translate-x-1/2 p-2 rounded-full bg-white/5 border border-white/10 text-white hover:bg-white/15 backdrop-blur-md transition animate-[float_2s_ease-in-out_infinite] z-50 hover:shadow-[0_0_15px_#00d4ff]"
         >
           <ArrowDown className="w-6 h-6 text-gray-300" />
         </motion.button>
