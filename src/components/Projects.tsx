@@ -7,8 +7,49 @@ import promptspot from "../assets/P4.png"
 import irada from "../assets/image.png"
 import nikeshoes from "../assets/P5.png"
 import moviemate from "../assets/Project7.png"
+import hyrstack from "../assets/hyrstack.png"
+import connectree from "../assets/connectree.png"
+import vera from "../assets/vera.png"
 
 const projects = [
+  {
+  title: "Vera – Shopify E-Commerce Store",
+  description:
+    "Built and optimized a production-ready Shopify e-commerce store from scratch, improving product visibility by 35%, scaling listings from 10+ to 50+, and implementing a referral system that increased sales by 20%.",
+  image: vera, // import your screenshot
+  technologies: [
+    "Shopify",
+    "Liquid",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Razorpay",
+    "E-commerce Optimization"
+  ],
+  liveUrl: "https://veraindia.co.in/",
+  featured: true,
+},
+ {
+  title: "HyrStack – AI Career & Interview Preparation Platform",
+  description:
+    "Hyrstack is an AI-powered full-stack career platform built with Next.js and Node.js that generates mock interviews, career insights, and AI-assisted resumes. Features secure authentication, role-based access, performance dashboards, scheduled AI insights, and PDF resume export.",
+  image: hyrstack, // make sure you import the image
+  technologies: [
+    "Next.js",
+    "React.js",
+    "Node.js",
+    "Shadcn UI",
+    "REST APIs",
+    "PostgreSQL",
+    "Prisma ORM",
+    "Inngest",
+    "Clerk Authentication",
+    "Tailwind CSS",
+  ],
+  liveUrl: "https://hyrstack.vercel.app/", // replace if deployed
+  githubUrl: "https://github.com/Gautam7701/HyrStack", // replace with actual repo
+  featured: true,
+},
   {
     title: "Brainee – AI-Powered Learning Platform",
     description:
@@ -19,6 +60,24 @@ const projects = [
     githubUrl: "https://github.com/Gautam7701/Brainee",
     featured: true,
   },
+ {
+  title: "Connectr.ee – Personal Link Portfolio Platform",
+  description:
+    "A full-stack link-in-bio platform built with Next.js that lets users create personalized pages to manage and showcase multiple links with secure authentication and optimized performance.",
+  image: connectree, // make sure you import image
+  technologies: [
+    "Next.js",
+    "React.js",
+    "Tailwind CSS",
+    "Authentication",
+    "Protected Routes",
+    "Vercel",
+    "CI/CD"
+  ],
+  liveUrl: "https://connectr.ee/",
+  githubUrl: "https://github.com/jaseemuddinn/connectree.git",
+  featured: true,
+},
   {
     title: "ShobhaDubai – Luxury Properties & Real Estate in Dubai",
     description:
@@ -78,6 +137,7 @@ const projects = [
     githubUrl: "https://github.com/Gautam7701/MovieMate",
     featured: false,
   },
+  
 ];
 
 const Projects = () => {

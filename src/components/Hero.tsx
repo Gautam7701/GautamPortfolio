@@ -54,7 +54,7 @@ const Hero = () => {
           animate="visible"
           className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-300 mb-6 tracking-tight"
         >
-          Full Stack Developer
+          Shopify & E-Commerce Developer
         </motion.h2>
 
         <motion.p
@@ -63,9 +63,7 @@ const Hero = () => {
           animate="visible"
           className="text-base sm:text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-10 leading-relaxed"
         >
-          Passionate about building sleek, high-performance web applications
-          with clean code and intuitive design. Specializing in React, Node.js,
-          and modern full-stack solutions.
+          Building scalable Shopify stores from scratch with custom themes, optimized performance, and conversion-focused design that drives real business growth.
         </motion.p>
 
         {/* Buttons */}
